@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 local f = CreateFrame("Frame", "FreemiumFrame", UIParent)
 f:RegisterEvent("ADDON_LOADED")
 f:RegisterEvent("UPDATE_PENDING_MAIL")
